@@ -179,6 +179,10 @@
             offerDiscount: {
                 type: String,
                 required: true
+            },
+            offerCountry: {
+                type: String,
+                required: false
             }
         },
         computed: {
